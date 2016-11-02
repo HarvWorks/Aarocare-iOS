@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14DA202D1DCAA70300CABA76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DA202C1DCAA70300CABA76 /* AppDelegate.swift */; };
+		14DA202F1DCAA70300CABA76 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DA202E1DCAA70300CABA76 /* ViewController.swift */; };
+		14DA20321DCAA70300CABA76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14DA20301DCAA70300CABA76 /* Main.storyboard */; };
+		14DA20351DCAA70300CABA76 /* AaroCare.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 14DA20331DCAA70300CABA76 /* AaroCare.xcdatamodeld */; };
+		14DA20371DCAA70300CABA76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14DA20361DCAA70300CABA76 /* Assets.xcassets */; };
+		14DA203A1DCAA70300CABA76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14DA20381DCAA70300CABA76 /* LaunchScreen.storyboard */; };
+		14DA20451DCAA70300CABA76 /* AaroCareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DA20441DCAA70300CABA76 /* AaroCareTests.swift */; };
+		14DA20501DCAA70300CABA76 /* AaroCareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DA204F1DCAA70300CABA76 /* AaroCareUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		14DA20411DCAA70300CABA76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14DA20211DCAA70300CABA76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14DA20281DCAA70300CABA76;
+			remoteInfo = AaroCare;
+		};
+		14DA204C1DCAA70300CABA76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14DA20211DCAA70300CABA76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14DA20281DCAA70300CABA76;
+			remoteInfo = AaroCare;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14DA20291DCAA70300CABA76 /* AaroCare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AaroCare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14DA202C1DCAA70300CABA76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		14DA202E1DCAA70300CABA76 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		14DA20311DCAA70300CABA76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		14DA20341DCAA70300CABA76 /* AaroCare.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AaroCare.xcdatamodel; sourceTree = "<group>"; };
+		14DA20361DCAA70300CABA76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		14DA20391DCAA70300CABA76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		14DA203B1DCAA70300CABA76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14DA20401DCAA70300CABA76 /* AaroCareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AaroCareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		14DA20441DCAA70300CABA76 /* AaroCareTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AaroCareTests.swift; sourceTree = "<group>"; };
+		14DA20461DCAA70300CABA76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14DA204B1DCAA70300CABA76 /* AaroCareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AaroCareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		14DA204F1DCAA70300CABA76 /* AaroCareUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AaroCareUITests.swift; sourceTree = "<group>"; };
+		14DA20511DCAA70300CABA76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14DA20261DCAA70300CABA76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14DA203D1DCAA70300CABA76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14DA20481DCAA70300CABA76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14DA20201DCAA70300CABA76 = {
+			isa = PBXGroup;
+			children = (
+				14DA202B1DCAA70300CABA76 /* AaroCare */,
+				14DA20431DCAA70300CABA76 /* AaroCareTests */,
+				14DA204E1DCAA70300CABA76 /* AaroCareUITests */,
+				14DA202A1DCAA70300CABA76 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		14DA202A1DCAA70300CABA76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14DA20291DCAA70300CABA76 /* AaroCare.app */,
+				14DA20401DCAA70300CABA76 /* AaroCareTests.xctest */,
+				14DA204B1DCAA70300CABA76 /* AaroCareUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14DA202B1DCAA70300CABA76 /* AaroCare */ = {
+			isa = PBXGroup;
+			children = (
+				14DA202C1DCAA70300CABA76 /* AppDelegate.swift */,
+				14DA202E1DCAA70300CABA76 /* ViewController.swift */,
+				14DA20301DCAA70300CABA76 /* Main.storyboard */,
+				14DA20361DCAA70300CABA76 /* Assets.xcassets */,
+				14DA20381DCAA70300CABA76 /* LaunchScreen.storyboard */,
+				14DA203B1DCAA70300CABA76 /* Info.plist */,
+				14DA20331DCAA70300CABA76 /* AaroCare.xcdatamodeld */,
+			);
+			path = AaroCare;
+			sourceTree = "<group>";
+		};
+		14DA20431DCAA70300CABA76 /* AaroCareTests */ = {
+			isa = PBXGroup;
+			children = (
+				14DA20441DCAA70300CABA76 /* AaroCareTests.swift */,
+				14DA20461DCAA70300CABA76 /* Info.plist */,
+			);
+			path = AaroCareTests;
+			sourceTree = "<group>";
+		};
+		14DA204E1DCAA70300CABA76 /* AaroCareUITests */ = {
+			isa = PBXGroup;
+			children = (
+				14DA204F1DCAA70300CABA76 /* AaroCareUITests.swift */,
+				14DA20511DCAA70300CABA76 /* Info.plist */,
+			);
+			path = AaroCareUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14DA20281DCAA70300CABA76 /* AaroCare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14DA20541DCAA70300CABA76 /* Build configuration list for PBXNativeTarget "AaroCare" */;
+			buildPhases = (
+				14DA20251DCAA70300CABA76 /* Sources */,
+				14DA20261DCAA70300CABA76 /* Frameworks */,
+				14DA20271DCAA70300CABA76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AaroCare;
+			productName = AaroCare;
+			productReference = 14DA20291DCAA70300CABA76 /* AaroCare.app */;
+			productType = "com.apple.product-type.application";
+		};
+		14DA203F1DCAA70300CABA76 /* AaroCareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14DA20571DCAA70300CABA76 /* Build configuration list for PBXNativeTarget "AaroCareTests" */;
+			buildPhases = (
+				14DA203C1DCAA70300CABA76 /* Sources */,
+				14DA203D1DCAA70300CABA76 /* Frameworks */,
+				14DA203E1DCAA70300CABA76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14DA20421DCAA70300CABA76 /* PBXTargetDependency */,
+			);
+			name = AaroCareTests;
+			productName = AaroCareTests;
+			productReference = 14DA20401DCAA70300CABA76 /* AaroCareTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		14DA204A1DCAA70300CABA76 /* AaroCareUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14DA205A1DCAA70300CABA76 /* Build configuration list for PBXNativeTarget "AaroCareUITests" */;
+			buildPhases = (
+				14DA20471DCAA70300CABA76 /* Sources */,
+				14DA20481DCAA70300CABA76 /* Frameworks */,
+				14DA20491DCAA70300CABA76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14DA204D1DCAA70300CABA76 /* PBXTargetDependency */,
+			);
+			name = AaroCareUITests;
+			productName = AaroCareUITests;
+			productReference = 14DA204B1DCAA70300CABA76 /* AaroCareUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14DA20211DCAA70300CABA76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = AaroCare;
+				TargetAttributes = {
+					14DA20281DCAA70300CABA76 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					14DA203F1DCAA70300CABA76 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 14DA20281DCAA70300CABA76;
+					};
+					14DA204A1DCAA70300CABA76 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 14DA20281DCAA70300CABA76;
+					};
+				};
+			};
+			buildConfigurationList = 14DA20241DCAA70300CABA76 /* Build configuration list for PBXProject "AaroCare" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 14DA20201DCAA70300CABA76;
+			productRefGroup = 14DA202A1DCAA70300CABA76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14DA20281DCAA70300CABA76 /* AaroCare */,
+				14DA203F1DCAA70300CABA76 /* AaroCareTests */,
+				14DA204A1DCAA70300CABA76 /* AaroCareUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14DA20271DCAA70300CABA76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14DA203A1DCAA70300CABA76 /* LaunchScreen.storyboard in Resources */,
+				14DA20371DCAA70300CABA76 /* Assets.xcassets in Resources */,
+				14DA20321DCAA70300CABA76 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14DA203E1DCAA70300CABA76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14DA20491DCAA70300CABA76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14DA20251DCAA70300CABA76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14DA20351DCAA70300CABA76 /* AaroCare.xcdatamodeld in Sources */,
+				14DA202F1DCAA70300CABA76 /* ViewController.swift in Sources */,
+				14DA202D1DCAA70300CABA76 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14DA203C1DCAA70300CABA76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14DA20451DCAA70300CABA76 /* AaroCareTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14DA20471DCAA70300CABA76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14DA20501DCAA70300CABA76 /* AaroCareUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		14DA20421DCAA70300CABA76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14DA20281DCAA70300CABA76 /* AaroCare */;
+			targetProxy = 14DA20411DCAA70300CABA76 /* PBXContainerItemProxy */;
+		};
+		14DA204D1DCAA70300CABA76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14DA20281DCAA70300CABA76 /* AaroCare */;
+			targetProxy = 14DA204C1DCAA70300CABA76 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		14DA20301DCAA70300CABA76 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14DA20311DCAA70300CABA76 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		14DA20381DCAA70300CABA76 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14DA20391DCAA70300CABA76 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		14DA20521DCAA70300CABA76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		14DA20531DCAA70300CABA76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14DA20551DCAA70300CABA76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AaroCare/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AaroCare.AaroCare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		14DA20561DCAA70300CABA76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AaroCare/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AaroCare.AaroCare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		14DA20581DCAA70300CABA76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AaroCareTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AaroCare.AaroCareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AaroCare.app/AaroCare";
+			};
+			name = Debug;
+		};
+		14DA20591DCAA70300CABA76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AaroCareTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AaroCare.AaroCareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AaroCare.app/AaroCare";
+			};
+			name = Release;
+		};
+		14DA205B1DCAA70300CABA76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = AaroCareUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AaroCare.AaroCareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = AaroCare;
+			};
+			name = Debug;
+		};
+		14DA205C1DCAA70300CABA76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = AaroCareUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AaroCare.AaroCareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = AaroCare;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14DA20241DCAA70300CABA76 /* Build configuration list for PBXProject "AaroCare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14DA20521DCAA70300CABA76 /* Debug */,
+				14DA20531DCAA70300CABA76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14DA20541DCAA70300CABA76 /* Build configuration list for PBXNativeTarget "AaroCare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14DA20551DCAA70300CABA76 /* Debug */,
+				14DA20561DCAA70300CABA76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		14DA20571DCAA70300CABA76 /* Build configuration list for PBXNativeTarget "AaroCareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14DA20581DCAA70300CABA76 /* Debug */,
+				14DA20591DCAA70300CABA76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		14DA205A1DCAA70300CABA76 /* Build configuration list for PBXNativeTarget "AaroCareUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14DA205B1DCAA70300CABA76 /* Debug */,
+				14DA205C1DCAA70300CABA76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		14DA20331DCAA70300CABA76 /* AaroCare.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				14DA20341DCAA70300CABA76 /* AaroCare.xcdatamodel */,
+			);
+			currentVersion = 14DA20341DCAA70300CABA76 /* AaroCare.xcdatamodel */;
+			path = AaroCare.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 14DA20211DCAA70300CABA76 /* Project object */;
+}
