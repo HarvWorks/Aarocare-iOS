@@ -196,6 +196,7 @@
 				TargetAttributes = {
 					14DA20281DCAA70300CABA76 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = ABK8U3Z3JM;
 						ProvisioningStyle = Automatic;
 					};
 					14DA203F1DCAA70300CABA76 = {
@@ -416,8 +417,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ABK8U3Z3JM;
 				INFOPLIST_FILE = AaroCare/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = AaroCare.AaroCare;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -429,8 +431,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ABK8U3Z3JM;
 				INFOPLIST_FILE = AaroCare/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = AaroCare.AaroCare;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -511,6 +514,7 @@
 				14DA20561DCAA70300CABA76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		14DA20571DCAA70300CABA76 /* Build configuration list for PBXNativeTarget "AaroCareTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +523,7 @@
 				14DA20591DCAA70300CABA76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		14DA205A1DCAA70300CABA76 /* Build configuration list for PBXNativeTarget "AaroCareUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +532,7 @@
 				14DA205C1DCAA70300CABA76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
