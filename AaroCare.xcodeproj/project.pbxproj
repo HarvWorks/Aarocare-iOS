@@ -7,14 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1496C0A61DE10E2400B9FE0E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1496C0A51DE10E2400B9FE0E /* LoginViewController.swift */; };
+		1496C0A81DE10E8900B9FE0E /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1496C0A71DE10E8900B9FE0E /* RegistrationViewController.swift */; };
+		1496C0AA1DE10EB000B9FE0E /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1496C0A91DE10EB000B9FE0E /* MapViewController.swift */; };
+		1496C0AC1DE10EC600B9FE0E /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1496C0AB1DE10EC600B9FE0E /* DetailsViewController.swift */; };
+		1496C0AF1DE113E200B9FE0E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1496C0AE1DE113E200B9FE0E /* CoreLocation.framework */; };
 		14DA202D1DCAA70300CABA76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DA202C1DCAA70300CABA76 /* AppDelegate.swift */; };
-		14DA202F1DCAA70300CABA76 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DA202E1DCAA70300CABA76 /* ViewController.swift */; };
 		14DA20321DCAA70300CABA76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14DA20301DCAA70300CABA76 /* Main.storyboard */; };
 		14DA20351DCAA70300CABA76 /* AaroCare.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 14DA20331DCAA70300CABA76 /* AaroCare.xcdatamodeld */; };
 		14DA20371DCAA70300CABA76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14DA20361DCAA70300CABA76 /* Assets.xcassets */; };
 		14DA203A1DCAA70300CABA76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14DA20381DCAA70300CABA76 /* LaunchScreen.storyboard */; };
-		14DA20451DCAA70300CABA76 /* AaroCareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DA20441DCAA70300CABA76 /* AaroCareTests.swift */; };
-		14DA20501DCAA70300CABA76 /* AaroCareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DA204F1DCAA70300CABA76 /* AaroCareUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,20 +37,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1496C0A51DE10E2400B9FE0E /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		1496C0A71DE10E8900B9FE0E /* RegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		1496C0A91DE10EB000B9FE0E /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		1496C0AB1DE10EC600B9FE0E /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		1496C0AE1DE113E200B9FE0E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		14DA20291DCAA70300CABA76 /* AaroCare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AaroCare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14DA202C1DCAA70300CABA76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		14DA202E1DCAA70300CABA76 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		14DA20311DCAA70300CABA76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		14DA20341DCAA70300CABA76 /* AaroCare.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AaroCare.xcdatamodel; sourceTree = "<group>"; };
 		14DA20361DCAA70300CABA76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		14DA20391DCAA70300CABA76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		14DA203B1DCAA70300CABA76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14DA20401DCAA70300CABA76 /* AaroCareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AaroCareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		14DA20441DCAA70300CABA76 /* AaroCareTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AaroCareTests.swift; sourceTree = "<group>"; };
-		14DA20461DCAA70300CABA76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14DA204B1DCAA70300CABA76 /* AaroCareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AaroCareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		14DA204F1DCAA70300CABA76 /* AaroCareUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AaroCareUITests.swift; sourceTree = "<group>"; };
-		14DA20511DCAA70300CABA76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1496C0AF1DE113E200B9FE0E /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,13 +79,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1496C0AD1DE113E200B9FE0E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1496C0AE1DE113E200B9FE0E /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		14DA20201DCAA70300CABA76 = {
 			isa = PBXGroup;
 			children = (
 				14DA202B1DCAA70300CABA76 /* AaroCare */,
-				14DA20431DCAA70300CABA76 /* AaroCareTests */,
-				14DA204E1DCAA70300CABA76 /* AaroCareUITests */,
 				14DA202A1DCAA70300CABA76 /* Products */,
+				1496C0AD1DE113E200B9FE0E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,32 +110,17 @@
 			isa = PBXGroup;
 			children = (
 				14DA202C1DCAA70300CABA76 /* AppDelegate.swift */,
-				14DA202E1DCAA70300CABA76 /* ViewController.swift */,
 				14DA20301DCAA70300CABA76 /* Main.storyboard */,
+				1496C0A51DE10E2400B9FE0E /* LoginViewController.swift */,
+				1496C0A71DE10E8900B9FE0E /* RegistrationViewController.swift */,
+				1496C0A91DE10EB000B9FE0E /* MapViewController.swift */,
+				1496C0AB1DE10EC600B9FE0E /* DetailsViewController.swift */,
 				14DA20361DCAA70300CABA76 /* Assets.xcassets */,
 				14DA20381DCAA70300CABA76 /* LaunchScreen.storyboard */,
 				14DA203B1DCAA70300CABA76 /* Info.plist */,
 				14DA20331DCAA70300CABA76 /* AaroCare.xcdatamodeld */,
 			);
 			path = AaroCare;
-			sourceTree = "<group>";
-		};
-		14DA20431DCAA70300CABA76 /* AaroCareTests */ = {
-			isa = PBXGroup;
-			children = (
-				14DA20441DCAA70300CABA76 /* AaroCareTests.swift */,
-				14DA20461DCAA70300CABA76 /* Info.plist */,
-			);
-			path = AaroCareTests;
-			sourceTree = "<group>";
-		};
-		14DA204E1DCAA70300CABA76 /* AaroCareUITests */ = {
-			isa = PBXGroup;
-			children = (
-				14DA204F1DCAA70300CABA76 /* AaroCareUITests.swift */,
-				14DA20511DCAA70300CABA76 /* Info.plist */,
-			);
-			path = AaroCareUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,9 +258,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1496C0A61DE10E2400B9FE0E /* LoginViewController.swift in Sources */,
 				14DA20351DCAA70300CABA76 /* AaroCare.xcdatamodeld in Sources */,
-				14DA202F1DCAA70300CABA76 /* ViewController.swift in Sources */,
+				1496C0A81DE10E8900B9FE0E /* RegistrationViewController.swift in Sources */,
+				1496C0AA1DE10EB000B9FE0E /* MapViewController.swift in Sources */,
 				14DA202D1DCAA70300CABA76 /* AppDelegate.swift in Sources */,
+				1496C0AC1DE10EC600B9FE0E /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +271,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14DA20451DCAA70300CABA76 /* AaroCareTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,7 +278,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14DA20501DCAA70300CABA76 /* AaroCareUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
